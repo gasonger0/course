@@ -1,0 +1,27 @@
+@(tasks: Seq[String])(implicit request: RequestHeader, flash: Flash)
+
+@main("TODO List") {
+    <h2>Список задач</h2>
+    <ul>
+        @for((task, i) <- tasks.zipWithIndex){
+            <li>@task</li>
+            <form method="post" action="@routes.TodoList.removeTask">
+                @helper.CSRF.formField
+                <input type="hidden" name="id" value="@i">
+                <button type="submit">Удалить заметку</button>
+            </form>
+        }
+    </ul>
+
+    <form method="post" action="@routes.TodoList.addTask">
+        @helper.CSRF.formField
+        <label for="task">
+            Задача:
+        </label>
+        <textarea name="task"></textarea>
+        <br>
+        <button type="submit">отправить</button>
+        <br>
+        <a href="@routes.TodoList.logout">Выйти из системы</a>
+    </form>
+}

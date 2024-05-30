@@ -1,0 +1,27 @@
+@* login Template *@
+@()(implicit request: RequestHeader, flash: Flash)
+
+@main("Login") {
+    <h2>Вход в систему</h2>
+
+    <form method="post" action="@routes.TodoList.validateLogin">
+        @helper.CSRF.formField
+        <label for="username">Имя пользователя:</label>
+        <input name="username">
+        <label for="password">Пароль:</label>
+        <input name="password">
+        <button type="submit">Отправить</button>
+    </form>
+    <br>
+    <h2>Регистрация</h2>
+    <form method="post" action="@routes.TodoList.createUser">
+        @helper.CSRF.formField
+        <label for="username">Имя пользователя:</label>
+        <input name="username">
+        <label for="password">Пароль:</label>
+        <input name="password">
+        <button type="submit">Отправить</button>
+    </form>
+
+    <a href="@routes.TodoList.logout">Выйти из системы</a>
+}

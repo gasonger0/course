@@ -1,0 +1,12 @@
+[error] C:\Users\Михаил\Desktop\course\app\models\TodoListModel.scala:25:59: overloaded method >= with alternatives:
+[error]   (x: Double)Boolean <and>
+[error]   (x: Float)Boolean <and>
+[error]   (x: Long)Boolean <and>
+[error]   (x: Int)Boolean <and>
+[error]   (x: Char)Boolean <and>
+[error]   (x: Short)Boolean <and>
+[error]   (x: Byte)Boolean
+[error]  cannot be applied to (List[String])
+[error]     if (index < 0 || tasks.get(username).isEmpty || index >= tasks(username)) false
+[error]                                                           ^
+[error] one error found
