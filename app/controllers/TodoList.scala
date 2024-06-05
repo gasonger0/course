@@ -2,7 +2,9 @@ package controllers
 
 import play.api.mvc.{AbstractController, ControllerComponents}
 import models.TodoListModel
+
 import javax.inject._
+import scala.collection.mutable
 
 @Singleton
 class TodoList @Inject()(cc: ControllerComponents) extends AbstractController(cc){
@@ -48,26 +50,28 @@ class TodoList @Inject()(cc: ControllerComponents) extends AbstractController(cc
     usernameOption.map { username =>
       val tasks = TodoListModel.getTasks(username)
       Ok(views.html.todoList(tasks))
-    }.getOrElse(Ok(views.html.todoList(Nil)))
+    }.getOrElse(Ok(views.html.todoList(mutable.Map.empty)))
   }
 
   def addTask = Action { implicit request =>
     val postVals = request.body.asFormUrlEncoded
     postVals.map { form =>
-      val description = form("task").head
+      val title = form("title").head
+      val description = form("tags")
       val userOption = request.session.get("username")
       userOption.map { curUser =>
-        TodoListModel.addTask(curUser, description)
+        TodoListModel.addTask(curUser, title, description.toList)
         Redirect(routes.TodoList.todoList)
       }.getOrElse(Redirect(routes.TodoList.login))
     }.getOrElse(Redirect(routes.TodoList.todoList)
       .flashing("msg" -> "Error"))
+    Redirect(routes.TodoList.todoList)
   }
 
   def removeTask = Action { implicit request =>
     val userOption = request.session.get("username")
     userOption.map { curUser =>
-      val id = request.body.asFormUrlEncoded.get("id").head.toInt
+      val id = request.body.asFormUrlEncoded.get("id").head
       TodoListModel.removeTask(curUser, id)
       Redirect(routes.TodoList.todoList)
     }.getOrElse(Redirect(routes.TodoList.todoList)

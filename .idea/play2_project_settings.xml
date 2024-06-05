@@ -13,8 +13,8 @@
         <entry key="root">
           <value>
             <ProjectSettingsEntry>
-              <option name="sourceDir" value="E:\course\app" />
-              <option name="confDir" value="C:\Users\Михаил\Desktop\course\app" />
+              <option name="sourceDir" value="C:\Users\Михаил\Desktop\course\app" />
+              <option name="confDir" value="E:\course-git\app" />
               <option name="playDistrPath" value="$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.9.2/play_2.13-2.9.2.jar" />
               <option name="templateImports">
                 <list>
@@ -38,7 +38,7 @@
                   <option value="controllers.Assets.Asset" />
                 </list>
               </option>
-              <option name="uri" value="/C:/Users/Михаил/Desktop/course" />
+              <option name="uri" value="/E:/course-git" />
             </ProjectSettingsEntry>
           </value>
         </entry>

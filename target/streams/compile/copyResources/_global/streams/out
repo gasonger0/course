@@ -1,5 +1,5 @@
 [debug] Copy resource mappings: 
-[debug] 	(C:\Users\Михаил\Desktop\course\conf\application.conf,C:\Users\Михаил\Desktop\course\target\scala-2.13\classes\application.conf)
-[debug] 	(C:\Users\Михаил\Desktop\course\conf\logback.xml,C:\Users\Михаил\Desktop\course\target\scala-2.13\classes\logback.xml)
-[debug] 	(C:\Users\Михаил\Desktop\course\conf\messages,C:\Users\Михаил\Desktop\course\target\scala-2.13\classes\messages)
-[debug] 	(C:\Users\Михаил\Desktop\course\conf\routes,C:\Users\Михаил\Desktop\course\target\scala-2.13\classes\routes)
+[debug] 	(E:\course-git\conf\application.conf,E:\course-git\target\scala-2.13\classes\application.conf)
+[debug] 	(E:\course-git\conf\logback.xml,E:\course-git\target\scala-2.13\classes\logback.xml)
+[debug] 	(E:\course-git\conf\messages,E:\course-git\target\scala-2.13\classes\messages)
+[debug] 	(E:\course-git\conf\routes,E:\course-git\target\scala-2.13\classes\routes)
