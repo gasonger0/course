@@ -4,12 +4,27 @@
 # ~~~~
 
 # An example controller showing a sample home page
+
+# views
+GET     /                               controllers.Application.redirectToLogin
 GET     /todo                           controllers.TodoList.todoList
+GET     /login                          controllers.TodoList.login
+# end views
+
+# tasks
+GET     /getTasks/:username             controllers.TodoList.getTasks(username)
 +nocsrf
 POST    /addTask                        controllers.TodoList.addTask
 POST    /removeTask                     controllers.TodoList.removeTask
+# end tasks
 
-GET     /login                          controllers.TodoList.login
+
+# user
++nocsrf
 POST    /validate                       controllers.TodoList.validateLogin
 POST    /createUser                     controllers.TodoList.createUser
-GET     /logout                         controllers.TodoList.logout
+# end user
+
+# assets
+GET     /assets/*file                   controllers.Assets.at(file)
+# end assets

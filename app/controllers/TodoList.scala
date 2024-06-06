@@ -2,6 +2,7 @@ package controllers
 
 import play.api.mvc.{AbstractController, ControllerComponents}
 import models.TodoListModel
+import play.api.libs.json.Json
 
 import javax.inject._
 import scala.collection.mutable
@@ -9,19 +10,25 @@ import scala.collection.mutable
 @Singleton
 class TodoList @Inject()(cc: ControllerComponents) extends AbstractController(cc){
 
+  // VIEWS
   def login = Action { implicit request =>
     Ok(views.html.login())
   }
 
+  def todoList = Action { implicit request =>
+    Ok(views.html.todoList())
+  }
+  // END VIEWS
+
   def validateLogin = Action { implicit request =>
     val postVals = request.body.asFormUrlEncoded
     postVals.map { args =>
-      val username = args("username").head
-      val password = args("password").head
+      val username = args("name").head
+      val password = args("pswd").head
       if (TodoListModel.validateUser(username, password)) {
-        Redirect(routes.TodoList.todoList).withSession("username" -> username)
+        Ok(Json.obj("username" -> username))
       } else {
-        Redirect(routes.TodoList.login).flashing("msg" -> "Неверный логин или пароль!")
+        NotFound("Неверный логин или пароль!")
       }
     }.getOrElse(Redirect(routes.TodoList.login))
   }
@@ -29,30 +36,20 @@ class TodoList @Inject()(cc: ControllerComponents) extends AbstractController(cc
   def createUser = Action { implicit request =>
     val postVals = request.body.asFormUrlEncoded
     postVals.map { args =>
-      val username = args("username").head
-      val password = args("password").head
+      val username = args("name").head
+      val password = args("pswd").head
       if (TodoListModel.createUser(username, password)) {
-        Redirect(routes.TodoList.todoList)
-          .withSession("username" -> username)
+        Ok(Json.obj("username" -> username))
       } else {
-        Ok("User already Exists")
-          .flashing("msg" -> "Пользователь уже существует!")
+        Conflict("Пользователь уже существует!")
       }
-    }.getOrElse(Redirect(routes.TodoList.login))
+    }.getOrElse(BadRequest)
   }
 
-  def logout = Action {
-    Redirect(routes.TodoList.login).withNewSession
-  }
-
-  def todoList = Action { implicit request =>
-    val usernameOption = request.session.get("username")
-    usernameOption.map { username =>
+  def getTasks(username: String) = Action { implicit request =>
       val tasks = TodoListModel.getTasks(username)
-      Ok(views.html.todoList(tasks))
-    }.getOrElse(Ok(views.html.todoList(mutable.Map.empty)))
+      Ok(Json.toJson(tasks))
   }
-
   def addTask = Action { implicit request =>
     val postVals = request.body.asFormUrlEncoded
     postVals.map { form =>

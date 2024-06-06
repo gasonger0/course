@@ -31,8 +31,6 @@ object TodoListModel {
     tasks(username)(title) = tags
   }
   def removeTask(username: String, index: String): Boolean = {
-      //    if (index < 0 || tasks.get(username).isEmpty || index >= tasks(username).length) false
-      //if (!tasks.get(username).contains(index)) false
       tasks(username) = tasks(username).-(index)
       true
   }

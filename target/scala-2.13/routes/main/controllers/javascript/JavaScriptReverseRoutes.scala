@@ -6,10 +6,30 @@ import play.api.routing.JavaScriptReverseRoute
 
 import _root_.controllers.Assets.Asset
 
-// @LINE:7
+// @LINE:9
 package controllers.javascript {
 
-  // @LINE:7
+  // @LINE:9
+  class ReverseApplication(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:9
+    def redirectToLogin: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.redirectToLogin",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + """"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:10
   class ReverseTodoList(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -17,7 +37,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:14
+    // @LINE:25
     def createUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TodoList.createUser",
       """
@@ -27,7 +47,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:13
+    // @LINE:24
     def validateLogin: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TodoList.validateLogin",
       """
@@ -37,7 +57,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:9
+    // @LINE:17
     def addTask: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TodoList.addTask",
       """
@@ -47,17 +67,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:15
-    def logout: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.TodoList.logout",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "logout"})
-        }
-      """
-    )
-  
-    // @LINE:10
+    // @LINE:18
     def removeTask: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TodoList.removeTask",
       """
@@ -67,7 +77,17 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:7
+    // @LINE:15
+    def getTasks: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.TodoList.getTasks",
+      """
+        function(username0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "getTasks/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[String]].javascriptUnbind + """)("username", username0))})
+        }
+      """
+    )
+  
+    // @LINE:10
     def todoList: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TodoList.todoList",
       """
@@ -77,12 +97,32 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:12
+    // @LINE:11
     def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TodoList.login",
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:29
+  class ReverseAssets(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:29
+    def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Assets.at",
+      """
+        function(file0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "assets/" + (""" + implicitly[play.api.mvc.PathBindable[String]].javascriptUnbind + """)("file", file0)})
         }
       """
     )

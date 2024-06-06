@@ -2,26 +2,13 @@
 @()(implicit request: RequestHeader, flash: Flash)
 
 @main("Login") {
-    <h2>Вход в систему</h2>
-
-    <form method="post" action="@routes.TodoList.validateLogin">
-        @helper.CSRF.formField
-        <label for="username">Имя пользователя:</label>
-        <input name="username">
-        <label for="password">Пароль:</label>
-        <input name="password">
-        <button type="submit">Отправить</button>
-    </form>
-    <br>
-    <h2>Регистрация</h2>
-    <form method="post" action="@routes.TodoList.createUser">
-        @helper.CSRF.formField
-        <label for="username">Имя пользователя:</label>
-        <input name="username">
-        <label for="password">Пароль:</label>
-        <input name="password">
-        <button type="submit">Отправить</button>
-    </form>
-
-    <a href="@routes.TodoList.logout">Выйти из системы</a>
+    <div id="login"></div>
+    <script>
+        // Передача токена CSRF для передачи во фронтенд
+        let str = `@helper.CSRF.formField`
+        let parser = new DOMParser();
+        localStorage.csrf = parser.parseFromString(str, "text/html").querySelector("input").value
+        delete parser
+        delete str
+    </script>
 }
