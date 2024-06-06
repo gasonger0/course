@@ -16,7 +16,7 @@ class Routes(
   Application_0: controllers.Application,
   // @LINE:10
   TodoList_1: controllers.TodoList,
-  // @LINE:29
+  // @LINE:28
   Assets_2: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -27,7 +27,7 @@ class Routes(
     Application_0: controllers.Application,
     // @LINE:10
     TodoList_1: controllers.TodoList,
-    // @LINE:29
+    // @LINE:28
     Assets_2: controllers.Assets
   ) = this(errorHandler, Application_0, TodoList_1, Assets_2, "/")
 
@@ -130,7 +130,7 @@ class Routes(
     )
   )
 
-  // @LINE:17
+  // @LINE:16
   private lazy val controllers_TodoList_addTask4_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("addTask")))
   )
@@ -144,11 +144,11 @@ class Routes(
       "POST",
       this.prefix + """addTask""",
       """""",
-      Seq("""nocsrf""")
+      Seq()
     )
   )
 
-  // @LINE:18
+  // @LINE:17
   private lazy val controllers_TodoList_removeTask5_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("removeTask")))
   )
@@ -166,7 +166,7 @@ class Routes(
     )
   )
 
-  // @LINE:24
+  // @LINE:23
   private lazy val controllers_TodoList_validateLogin6_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("validate")))
   )
@@ -184,7 +184,7 @@ class Routes(
     )
   )
 
-  // @LINE:25
+  // @LINE:24
   private lazy val controllers_TodoList_createUser7_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("createUser")))
   )
@@ -202,7 +202,7 @@ class Routes(
     )
   )
 
-  // @LINE:29
+  // @LINE:28
   private lazy val controllers_Assets_at8_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""", encodeable=false)))
   )
@@ -247,31 +247,31 @@ class Routes(
         controllers_TodoList_getTasks3_invoker.call(TodoList_1.getTasks(username))
       }
   
-    // @LINE:17
+    // @LINE:16
     case controllers_TodoList_addTask4_route(params@_) =>
       call { 
         controllers_TodoList_addTask4_invoker.call(TodoList_1.addTask)
       }
   
-    // @LINE:18
+    // @LINE:17
     case controllers_TodoList_removeTask5_route(params@_) =>
       call { 
         controllers_TodoList_removeTask5_invoker.call(TodoList_1.removeTask)
       }
   
-    // @LINE:24
+    // @LINE:23
     case controllers_TodoList_validateLogin6_route(params@_) =>
       call { 
         controllers_TodoList_validateLogin6_invoker.call(TodoList_1.validateLogin)
       }
   
-    // @LINE:25
+    // @LINE:24
     case controllers_TodoList_createUser7_route(params@_) =>
       call { 
         controllers_TodoList_createUser7_invoker.call(TodoList_1.createUser)
       }
   
-    // @LINE:29
+    // @LINE:28
     case controllers_Assets_at8_route(params@_) =>
       call(params.fromPath[String]("file", None)) { (file) =>
         controllers_Assets_at8_invoker.call(Assets_2.at(file))

@@ -37,7 +37,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:25
+    // @LINE:24
     def createUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TodoList.createUser",
       """
@@ -47,7 +47,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:24
+    // @LINE:23
     def validateLogin: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TodoList.validateLogin",
       """
@@ -57,7 +57,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:17
+    // @LINE:16
     def addTask: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TodoList.addTask",
       """
@@ -67,7 +67,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:18
+    // @LINE:17
     def removeTask: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TodoList.removeTask",
       """
@@ -109,7 +109,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:29
+  // @LINE:28
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -117,7 +117,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:29
+    // @LINE:28
     def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.at",
       """

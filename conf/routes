@@ -13,7 +13,6 @@ GET     /login                          controllers.TodoList.login
 
 # tasks
 GET     /getTasks/:username             controllers.TodoList.getTasks(username)
-+nocsrf
 POST    /addTask                        controllers.TodoList.addTask
 POST    /removeTask                     controllers.TodoList.removeTask
 # end tasks

@@ -1,30 +1,140 @@
-2024-06-06 12:19:29 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 12:19:29 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 12:19:29 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 12:19:29 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2024-06-06 22:53:54 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-06 22:53:54 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-06 22:53:54 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-06 22:53:54 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2024-06-06 12:19:29 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 13:15:52 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 13:15:57 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 13:15:57 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 13:15:57 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 13:15:57 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 13:15:57 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2024-06-06 22:53:54 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-06 22:59:09 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-06 22:59:10 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-06 22:59:10 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-06 22:59:10 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-06 22:59:10 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-06 22:59:10 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2024-06-06 13:15:57 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 15:18:00 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+2024-06-06 22:59:10 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-06 23:00:48 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-06 23:00:50 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-06 23:00:50 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-06 23:00:50 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-06 23:00:50 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-06 23:00:50 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
-! @85m8kl9jp - Internal server error, for (GET) [/login] ->
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2024-06-06 23:00:50 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-06 23:01:17 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-06 23:01:21 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-06 23:01:21 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-06 23:01:21 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-06 23:01:21 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-06 23:01:21 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2024-06-06 23:01:21 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-06 23:04:41 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-06 23:04:46 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-06 23:04:46 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-06 23:04:46 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-06 23:04:46 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-06 23:04:46 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2024-06-06 23:04:46 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-06 23:05:29 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-06 23:05:31 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-06 23:05:32 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-06 23:05:32 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-06 23:05:32 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-06 23:05:32 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2024-06-06 23:05:32 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-06 23:06:18 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-06 23:06:22 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-06 23:06:22 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-06 23:06:22 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-06 23:06:22 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-06 23:06:22 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2024-06-06 23:06:22 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-06 23:07:48 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-06 23:07:52 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-06 23:07:52 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-06 23:07:52 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-06 23:07:52 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-06 23:07:52 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2024-06-06 23:07:52 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-06 23:08:27 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-06 23:08:28 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-06 23:08:28 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-06 23:08:28 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-06 23:08:28 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-06 23:08:28 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2024-06-06 23:08:28 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-07 00:05:07 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-07 00:05:11 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-07 00:05:11 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-07 00:05:11 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-07 00:05:11 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-07 00:05:11 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2024-06-07 00:05:11 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-07 00:07:25 [31mWARN [0;39m [36mplay.filters.CSRF[0;39m [35m[0;39m [CSRF] Check failed because no or invalid token found in body for /updateTags/
+2024-06-07 00:07:25 [31mWARN [0;39m [36mplay.filters.CSRF[0;39m [35m[0;39m [CSRF] Check failed with NoTokenInBody for /updateTags/
+2024-06-07 00:17:55 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-07 00:17:57 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-07 00:17:57 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-07 00:17:57 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-07 00:17:57 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-07 00:17:57 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2024-06-07 00:17:57 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-07 00:23:15 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @85mbeaie2 - Internal server error, for (GET) [/todo] ->
  
-play.sbt.PlayExceptions$CompilationException: Compilation error[value Assets is not a member of object controllers.routes]
+play.sbt.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of Unit to HTTP response. Try to define a Writeable[Unit]]
 	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
 	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
 	at scala.Option.map(Option.scala:230)
@@ -65,587 +175,39 @@ play.sbt.PlayExceptions$CompilationException: Compilation error[value Assets is 
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-2024-06-06 15:19:33 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
-
-! @85m8l0g78 - Internal server error, for (GET) [/login] ->
- 
-play.sbt.PlayExceptions$CompilationException: Compilation error[value versioned is not a member of controllers.ReverseAssets]
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:119)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:92)
-	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:144)
-	at scala.util.Either$LeftProjection.map(Either.scala:573)
-	at play.sbt.run.PlayReload$.compile(PlayReload.scala:144)
-	at sbt.PlayRun$.$anonfun$playRunTask$5(PlayRun.scala:99)
-	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:495)
-	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:58)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
-	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:64)
-	at play.runsupport.Reloader.reload(Reloader.scala:495)
-	at play.core.server.DevServerStart$DevServerApplicationProvider$1.get(DevServerStart.scala:189)
-	at play.core.server.PekkoHttpServer.handleRequest(PekkoHttpServer.scala:320)
-	at play.core.server.PekkoHttpServer.$anonfun$createServerBinding$1(PekkoHttpServer.scala:224)
-	at org.apache.pekko.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1443)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:555)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:506)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:400)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:662)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:532)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:637)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.org$apache$pekko$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:813)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:831)
-	at org.apache.pekko.actor.Actor.aroundReceive(Actor.scala:547)
-	at org.apache.pekko.actor.Actor.aroundReceive$(Actor.scala:545)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:729)
-	at org.apache.pekko.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at org.apache.pekko.actor.ActorCell.invoke(ActorCell.scala:557)
-	at org.apache.pekko.dispatch.Mailbox.processMailbox(Mailbox.scala:280)
-	at org.apache.pekko.dispatch.Mailbox.run(Mailbox.scala:241)
-	at org.apache.pekko.dispatch.Mailbox.exec(Mailbox.scala:253)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-2024-06-06 15:20:01 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 15:20:02 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 15:20:02 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 15:20:02 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 15:20:02 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 15:20:02 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2024-06-07 00:30:02 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-07 00:30:03 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-07 00:30:03 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-07 00:30:03 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-07 00:30:03 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-07 00:30:03 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2024-06-06 15:20:02 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 15:20:46 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 15:20:47 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 15:20:47 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 15:20:47 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 15:20:47 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 15:20:47 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2024-06-07 00:30:03 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-07 00:51:19 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-07 00:51:20 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-07 00:51:20 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-07 00:51:20 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-07 00:51:20 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-07 00:51:20 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2024-06-06 15:20:47 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 15:26:15 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
-
-! @85m8lncpl - Internal server error, for (GET) [/login] ->
- 
-play.sbt.PlayExceptions$CompilationException: Compilation error[not found: type AnyContent]
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:119)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:92)
-	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:144)
-	at scala.util.Either$LeftProjection.map(Either.scala:573)
-	at play.sbt.run.PlayReload$.compile(PlayReload.scala:144)
-	at sbt.PlayRun$.$anonfun$playRunTask$5(PlayRun.scala:99)
-	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:495)
-	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:58)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
-	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:64)
-	at play.runsupport.Reloader.reload(Reloader.scala:495)
-	at play.core.server.DevServerStart$DevServerApplicationProvider$1.get(DevServerStart.scala:189)
-	at play.core.server.PekkoHttpServer.handleRequest(PekkoHttpServer.scala:320)
-	at play.core.server.PekkoHttpServer.$anonfun$createServerBinding$1(PekkoHttpServer.scala:224)
-	at org.apache.pekko.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1443)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:555)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:506)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:400)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:662)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:532)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:637)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.org$apache$pekko$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:813)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:831)
-	at org.apache.pekko.actor.Actor.aroundReceive(Actor.scala:547)
-	at org.apache.pekko.actor.Actor.aroundReceive$(Actor.scala:545)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:729)
-	at org.apache.pekko.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at org.apache.pekko.actor.ActorCell.invoke(ActorCell.scala:557)
-	at org.apache.pekko.dispatch.Mailbox.processMailbox(Mailbox.scala:280)
-	at org.apache.pekko.dispatch.Mailbox.run(Mailbox.scala:241)
-	at org.apache.pekko.dispatch.Mailbox.exec(Mailbox.scala:253)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-2024-06-06 15:26:24 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
-
-! @85m8lo0mp - Internal server error, for (GET) [/login] ->
- 
-play.sbt.PlayExceptions$CompilationException: Compilation error[value current is not a member of object play.api.Play]
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:119)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:92)
-	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:144)
-	at scala.util.Either$LeftProjection.map(Either.scala:573)
-	at play.sbt.run.PlayReload$.compile(PlayReload.scala:144)
-	at sbt.PlayRun$.$anonfun$playRunTask$5(PlayRun.scala:99)
-	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:495)
-	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:58)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
-	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:64)
-	at play.runsupport.Reloader.reload(Reloader.scala:495)
-	at play.core.server.DevServerStart$DevServerApplicationProvider$1.get(DevServerStart.scala:189)
-	at play.core.server.PekkoHttpServer.handleRequest(PekkoHttpServer.scala:320)
-	at play.core.server.PekkoHttpServer.$anonfun$createServerBinding$1(PekkoHttpServer.scala:224)
-	at org.apache.pekko.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1443)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:555)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:506)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:400)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:662)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:532)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:637)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.org$apache$pekko$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:813)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:831)
-	at org.apache.pekko.actor.Actor.aroundReceive(Actor.scala:547)
-	at org.apache.pekko.actor.Actor.aroundReceive$(Actor.scala:545)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:729)
-	at org.apache.pekko.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at org.apache.pekko.actor.ActorCell.invoke(ActorCell.scala:557)
-	at org.apache.pekko.dispatch.Mailbox.processMailbox(Mailbox.scala:280)
-	at org.apache.pekko.dispatch.Mailbox.run(Mailbox.scala:241)
-	at org.apache.pekko.dispatch.Mailbox.exec(Mailbox.scala:253)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-2024-06-06 16:02:31 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 16:02:32 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 16:02:32 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 16:02:32 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 16:02:32 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 16:02:32 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2024-06-07 00:51:20 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-07 00:51:32 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
+2024-06-07 00:51:35 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
+2024-06-07 00:51:35 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
+2024-06-07 00:51:35 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
+2024-06-07 00:51:35 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-06-07 00:51:35 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2024-06-06 16:02:32 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 16:03:14 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 16:03:18 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 16:03:18 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 16:03:18 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 16:03:18 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 16:03:18 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 16:03:18 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 16:05:04 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 16:05:08 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 16:05:08 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 16:05:08 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 16:05:08 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 16:05:08 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 16:05:08 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 16:17:18 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 16:17:21 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 16:17:22 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 16:17:22 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 16:17:22 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 16:17:22 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 16:17:22 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 16:17:25 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
-
-! @85m92g4p3 - Internal server error, for (POST) [/validate] ->
- 
-play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NoSuchElementException: key not found: username]]
-	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:400)
-	at scala.Option.map(Option.scala:242)
-	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:398)
-	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:390)
-	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:267)
-	at play.core.server.PekkoHttpServer$$anonfun$invokeAction$1$1.applyOrElse(PekkoHttpServer.scala:482)
-	at play.core.server.PekkoHttpServer$$anonfun$invokeAction$1$1.applyOrElse(PekkoHttpServer.scala:474)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at org.apache.pekko.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:73)
-	at org.apache.pekko.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:110)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
-	at org.apache.pekko.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:110)
-	at org.apache.pekko.dispatch.TaskInvocation.run(AbstractDispatcher.scala:59)
-	at org.apache.pekko.dispatch.ForkJoinExecutorConfigurator$PekkoForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:57)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-Caused by: java.util.NoSuchElementException: key not found: username
-	at scala.collection.immutable.ListMap$Node.applyInternal(ListMap.scala:156)
-	at scala.collection.immutable.ListMap$Node.apply(ListMap.scala:153)
-	at controllers.TodoList.$anonfun$validateLogin$2(TodoList.scala:19)
-	at scala.Option.map(Option.scala:242)
-	at controllers.TodoList.$anonfun$validateLogin$1(TodoList.scala:18)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:87)
-	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:496)
-	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:494)
-	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:434)
-	at play.api.mvc.Action.$anonfun$apply$6(Action.scala:83)
-	at play.api.mvc.BodyParser$.$anonfun$runParserThenInvokeAction$1(Action.scala:260)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:167)
-	at scala.util.Try$.apply(Try.scala:217)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:167)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:87)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:87)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:199)
-	at play.core.server.PekkoHttpServer.$anonfun$runAction$3(PekkoHttpServer.scala:468)
-	at org.apache.pekko.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:49)
-	at org.apache.pekko.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:59)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
-	... 12 common frames omitted
-2024-06-06 16:17:31 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
-
-! @85m92gdbl - Internal server error, for (POST) [/validate] ->
- 
-play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NoSuchElementException: key not found: username]]
-	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:400)
-	at scala.Option.map(Option.scala:242)
-	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:398)
-	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:390)
-	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:267)
-	at play.core.server.PekkoHttpServer$$anonfun$invokeAction$1$1.applyOrElse(PekkoHttpServer.scala:482)
-	at play.core.server.PekkoHttpServer$$anonfun$invokeAction$1$1.applyOrElse(PekkoHttpServer.scala:474)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at org.apache.pekko.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:73)
-	at org.apache.pekko.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:110)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
-	at org.apache.pekko.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:110)
-	at org.apache.pekko.dispatch.TaskInvocation.run(AbstractDispatcher.scala:59)
-	at org.apache.pekko.dispatch.ForkJoinExecutorConfigurator$PekkoForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:57)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-Caused by: java.util.NoSuchElementException: key not found: username
-	at scala.collection.immutable.ListMap$Node.applyInternal(ListMap.scala:156)
-	at scala.collection.immutable.ListMap$Node.apply(ListMap.scala:153)
-	at controllers.TodoList.$anonfun$validateLogin$2(TodoList.scala:19)
-	at scala.Option.map(Option.scala:242)
-	at controllers.TodoList.$anonfun$validateLogin$1(TodoList.scala:18)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:87)
-	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:496)
-	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:494)
-	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:434)
-	at play.api.mvc.Action.$anonfun$apply$6(Action.scala:83)
-	at play.api.mvc.BodyParser$.$anonfun$runParserThenInvokeAction$1(Action.scala:260)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:167)
-	at scala.util.Try$.apply(Try.scala:217)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:167)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:87)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:87)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:199)
-	at play.core.server.PekkoHttpServer.$anonfun$runAction$3(PekkoHttpServer.scala:468)
-	at org.apache.pekko.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:49)
-	at org.apache.pekko.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:59)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
-	... 12 common frames omitted
-2024-06-06 16:18:47 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 16:18:52 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 16:18:52 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 16:18:52 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 16:18:52 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 16:18:52 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 16:18:52 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 16:21:21 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
-
-! @85m933g11 - Internal server error, for (POST) [/validate] ->
- 
-play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NoSuchElementException: key not found: name]]
-	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:400)
-	at scala.Option.map(Option.scala:242)
-	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:398)
-	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:390)
-	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:267)
-	at play.core.server.PekkoHttpServer$$anonfun$invokeAction$1$1.applyOrElse(PekkoHttpServer.scala:482)
-	at play.core.server.PekkoHttpServer$$anonfun$invokeAction$1$1.applyOrElse(PekkoHttpServer.scala:474)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at org.apache.pekko.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:73)
-	at org.apache.pekko.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:110)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
-	at org.apache.pekko.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:110)
-	at org.apache.pekko.dispatch.TaskInvocation.run(AbstractDispatcher.scala:59)
-	at org.apache.pekko.dispatch.ForkJoinExecutorConfigurator$PekkoForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:57)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-Caused by: java.util.NoSuchElementException: key not found: name
-	at scala.collection.immutable.ListMap$Node.applyInternal(ListMap.scala:156)
-	at scala.collection.immutable.ListMap$Node.apply(ListMap.scala:153)
-	at controllers.TodoList.$anonfun$validateLogin$2(TodoList.scala:19)
-	at scala.Option.map(Option.scala:242)
-	at controllers.TodoList.$anonfun$validateLogin$1(TodoList.scala:18)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:87)
-	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:496)
-	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:494)
-	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:434)
-	at play.api.mvc.Action.$anonfun$apply$6(Action.scala:83)
-	at play.api.mvc.BodyParser$.$anonfun$runParserThenInvokeAction$1(Action.scala:260)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:167)
-	at scala.util.Try$.apply(Try.scala:217)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:167)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:87)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:87)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:199)
-	at play.core.server.PekkoHttpServer.$anonfun$runAction$3(PekkoHttpServer.scala:468)
-	at org.apache.pekko.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:49)
-	at org.apache.pekko.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:59)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
-	... 12 common frames omitted
-2024-06-06 16:22:54 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 16:22:59 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 16:22:59 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 16:22:59 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 16:22:59 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 16:22:59 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 16:22:59 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 16:49:07 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
-
-! @85m96ka7b - Internal server error, for (GET) [/login] ->
- 
-play.sbt.PlayExceptions$CompilationException: Compilation error[value logout is not a member of controllers.ReverseTodoList]
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:119)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:92)
-	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:144)
-	at scala.util.Either$LeftProjection.map(Either.scala:573)
-	at play.sbt.run.PlayReload$.compile(PlayReload.scala:144)
-	at sbt.PlayRun$.$anonfun$playRunTask$5(PlayRun.scala:99)
-	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:495)
-	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:58)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
-	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:64)
-	at play.runsupport.Reloader.reload(Reloader.scala:495)
-	at play.core.server.DevServerStart$DevServerApplicationProvider$1.get(DevServerStart.scala:189)
-	at play.core.server.PekkoHttpServer.handleRequest(PekkoHttpServer.scala:320)
-	at play.core.server.PekkoHttpServer.$anonfun$createServerBinding$1(PekkoHttpServer.scala:224)
-	at org.apache.pekko.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1443)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:555)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:506)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:400)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:662)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:532)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:637)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.org$apache$pekko$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:813)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:831)
-	at org.apache.pekko.actor.Actor.aroundReceive(Actor.scala:547)
-	at org.apache.pekko.actor.Actor.aroundReceive$(Actor.scala:545)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:729)
-	at org.apache.pekko.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at org.apache.pekko.actor.ActorCell.invoke(ActorCell.scala:557)
-	at org.apache.pekko.dispatch.Mailbox.processMailbox(Mailbox.scala:280)
-	at org.apache.pekko.dispatch.Mailbox.run(Mailbox.scala:241)
-	at org.apache.pekko.dispatch.Mailbox.exec(Mailbox.scala:253)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-2024-06-06 16:50:12 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 16:50:15 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 16:50:15 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 16:50:15 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 16:50:15 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 16:50:15 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 16:50:15 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 16:58:41 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 16:58:42 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 16:58:42 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 16:58:42 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 16:58:42 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 16:58:42 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 16:58:42 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 17:01:14 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 17:01:18 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 17:01:18 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 17:01:18 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 17:01:18 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 17:01:18 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 17:01:18 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 17:42:25 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
-
-! @85m9dk93m - Internal server error, for (GET) [/getTasks] ->
- 
-play.sbt.PlayExceptions$CompilationException: Compilation error[not enough arguments for method apply: (implicit request: play.api.mvc.RequestHeader, flash: play.api.mvc.Flash): play.twirl.api.HtmlFormat.Appendable in object todoList.
-Unspecified value parameters request, flash.]
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:119)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:92)
-	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:144)
-	at scala.util.Either$LeftProjection.map(Either.scala:573)
-	at play.sbt.run.PlayReload$.compile(PlayReload.scala:144)
-	at sbt.PlayRun$.$anonfun$playRunTask$5(PlayRun.scala:99)
-	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:495)
-	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:58)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
-	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:64)
-	at play.runsupport.Reloader.reload(Reloader.scala:495)
-	at play.core.server.DevServerStart$DevServerApplicationProvider$1.get(DevServerStart.scala:189)
-	at play.core.server.PekkoHttpServer.handleRequest(PekkoHttpServer.scala:320)
-	at play.core.server.PekkoHttpServer.$anonfun$createServerBinding$1(PekkoHttpServer.scala:224)
-	at org.apache.pekko.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1443)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:555)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:506)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:400)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:662)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:532)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:637)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.org$apache$pekko$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:813)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:831)
-	at org.apache.pekko.actor.Actor.aroundReceive(Actor.scala:547)
-	at org.apache.pekko.actor.Actor.aroundReceive$(Actor.scala:545)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:729)
-	at org.apache.pekko.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at org.apache.pekko.actor.ActorCell.invoke(ActorCell.scala:557)
-	at org.apache.pekko.dispatch.Mailbox.processMailbox(Mailbox.scala:280)
-	at org.apache.pekko.dispatch.Mailbox.run(Mailbox.scala:241)
-	at org.apache.pekko.dispatch.Mailbox.exec(Mailbox.scala:253)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-2024-06-06 17:43:06 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
-
-! @85m9dmhkc - Internal server error, for (GET) [/getTasks] ->
- 
-play.sbt.PlayExceptions$CompilationException: Compilation error[not enough arguments for method apply: (implicit request: play.api.mvc.RequestHeader, flash: play.api.mvc.Flash): play.twirl.api.HtmlFormat.Appendable in object todoList.
-Unspecified value parameters request, flash.]
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:28)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:119)
-	at scala.Option.map(Option.scala:230)
-	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:92)
-	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:144)
-	at scala.util.Either$LeftProjection.map(Either.scala:573)
-	at play.sbt.run.PlayReload$.compile(PlayReload.scala:144)
-	at sbt.PlayRun$.$anonfun$playRunTask$5(PlayRun.scala:99)
-	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:495)
-	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:58)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
-	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:64)
-	at play.runsupport.Reloader.reload(Reloader.scala:495)
-	at play.core.server.DevServerStart$DevServerApplicationProvider$1.get(DevServerStart.scala:189)
-	at play.core.server.PekkoHttpServer.handleRequest(PekkoHttpServer.scala:320)
-	at play.core.server.PekkoHttpServer.$anonfun$createServerBinding$1(PekkoHttpServer.scala:224)
-	at org.apache.pekko.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1443)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:555)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:506)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:400)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:662)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:532)
-	at org.apache.pekko.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:637)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.org$apache$pekko$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:813)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:831)
-	at org.apache.pekko.actor.Actor.aroundReceive(Actor.scala:547)
-	at org.apache.pekko.actor.Actor.aroundReceive$(Actor.scala:545)
-	at org.apache.pekko.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:729)
-	at org.apache.pekko.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at org.apache.pekko.actor.ActorCell.invoke(ActorCell.scala:557)
-	at org.apache.pekko.dispatch.Mailbox.processMailbox(Mailbox.scala:280)
-	at org.apache.pekko.dispatch.Mailbox.run(Mailbox.scala:241)
-	at org.apache.pekko.dispatch.Mailbox.exec(Mailbox.scala:253)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-2024-06-06 17:44:02 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 17:44:03 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 17:44:03 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 17:44:03 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 17:44:03 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 17:44:03 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 17:44:03 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 17:44:57 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 17:44:59 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 17:44:59 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 17:44:59 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 17:44:59 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 17:44:59 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 17:44:59 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
-2024-06-06 17:47:56 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Shutting down connection pool.
-2024-06-06 17:48:00 [34mINFO [0;39m [36mp.a.http.HttpErrorHandlerExceptions[0;39m [35m[0;39m Registering exception handler: guice-provision-exception-handler
-2024-06-06 17:48:00 [34mINFO [0;39m [36mplay.api.db.DefaultDBApi[0;39m [35m[0;39m Database [default] initialized
-2024-06-06 17:48:00 [34mINFO [0;39m [36mplay.api.db.HikariCPConnectionPool[0;39m [35m[0;39m Creating Pool for datasource 'default'
-2024-06-06 17:48:00 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2024-06-06 17:48:00 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2024-06-06 17:48:00 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2024-06-07 00:51:35 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)

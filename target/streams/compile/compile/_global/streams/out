@@ -1,4 +1,4 @@
-[warn] E:\course-git\app\models\TodoListModel.scala:36:41: method - in trait MapOps is deprecated (since 2.13.0): Use - or remove on an immutable Map
+[warn] C:\Users\Михаил\Desktop\course-пше\app\models\TodoListModel.scala:43:41: method - in trait MapOps is deprecated (since 2.13.0): Use - or remove on an immutable Map
 [warn]       tasks(username) = tasks(username).-(index)
 [warn]                                         ^
 [warn] one warning found

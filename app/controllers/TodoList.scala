@@ -50,28 +50,27 @@ class TodoList @Inject()(cc: ControllerComponents) extends AbstractController(cc
       val tasks = TodoListModel.getTasks(username)
       Ok(Json.toJson(tasks))
   }
+
   def addTask = Action { implicit request =>
     val postVals = request.body.asFormUrlEncoded
     postVals.map { form =>
       val title = form("title").head
-      val description = form("tags")
-      val userOption = request.session.get("username")
-      userOption.map { curUser =>
-        TodoListModel.addTask(curUser, title, description.toList)
-        Redirect(routes.TodoList.todoList)
-      }.getOrElse(Redirect(routes.TodoList.login))
-    }.getOrElse(Redirect(routes.TodoList.todoList)
-      .flashing("msg" -> "Error"))
-    Redirect(routes.TodoList.todoList)
+      val tags = form("tags")
+      val desc = form("desc").head
+      val userName = form("username").head
+      TodoListModel.addTask(userName, title, desc, tags.toList)
+      Ok(Json.toJson("OK"))
+    }.getOrElse(BadRequest("Error"))
   }
 
   def removeTask = Action { implicit request =>
-    val userOption = request.session.get("username")
-    userOption.map { curUser =>
-      val id = request.body.asFormUrlEncoded.get("id").head
-      TodoListModel.removeTask(curUser, id)
-      Redirect(routes.TodoList.todoList)
-    }.getOrElse(Redirect(routes.TodoList.todoList)
-      .flashing("msg" -> "Ошибка при удалении заметки"))
+    val curUser = request.body.asFormUrlEncoded.get("username").head
+    val id = request.body.asFormUrlEncoded.get("id").head
+    TodoListModel.removeTask(curUser, id)
+    Ok("OK")
   }
+
+//  def changeTag = Action { implicit request =>
+//    TODO
+//  }
 }

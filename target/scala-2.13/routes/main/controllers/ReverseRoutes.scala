@@ -31,25 +31,25 @@ package controllers {
     }
 
   
-    // @LINE:25
+    // @LINE:24
     def createUser: Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "createUser")
     }
   
-    // @LINE:24
+    // @LINE:23
     def validateLogin: Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "validate")
     }
   
-    // @LINE:17
+    // @LINE:16
     def addTask: Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "addTask")
     }
   
-    // @LINE:18
+    // @LINE:17
     def removeTask: Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "removeTask")
@@ -75,14 +75,14 @@ package controllers {
   
   }
 
-  // @LINE:29
+  // @LINE:28
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:29
+    // @LINE:28
     def at(file:String): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[String]].unbind("file", file))
