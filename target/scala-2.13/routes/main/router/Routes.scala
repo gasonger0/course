@@ -16,7 +16,7 @@ class Routes(
   Application_0: controllers.Application,
   // @LINE:10
   TodoList_1: controllers.TodoList,
-  // @LINE:28
+  // @LINE:29
   Assets_2: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -27,7 +27,7 @@ class Routes(
     Application_0: controllers.Application,
     // @LINE:10
     TodoList_1: controllers.TodoList,
-    // @LINE:28
+    // @LINE:29
     Assets_2: controllers.Assets
   ) = this(errorHandler, Application_0, TodoList_1, Assets_2, "/")
 
@@ -48,6 +48,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """getTasks/""" + "$" + """username<[^/]+>""", """controllers.TodoList.getTasks(username:String)"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """addTask""", """controllers.TodoList.addTask"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """removeTask""", """controllers.TodoList.removeTask"""),
+    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """updateTags""", """controllers.TodoList.changeTags"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """validate""", """controllers.TodoList.validateLogin"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """createUser""", """controllers.TodoList.createUser"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.at(file:String)"""),
@@ -166,11 +167,29 @@ class Routes(
     )
   )
 
-  // @LINE:23
-  private lazy val controllers_TodoList_validateLogin6_route = Route("POST",
+  // @LINE:18
+  private lazy val controllers_TodoList_changeTags6_route = Route("POST",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("updateTags")))
+  )
+  private lazy val controllers_TodoList_changeTags6_invoker = createInvoker(
+    TodoList_1.changeTags,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.TodoList",
+      "changeTags",
+      Nil,
+      "POST",
+      this.prefix + """updateTags""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:24
+  private lazy val controllers_TodoList_validateLogin7_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("validate")))
   )
-  private lazy val controllers_TodoList_validateLogin6_invoker = createInvoker(
+  private lazy val controllers_TodoList_validateLogin7_invoker = createInvoker(
     TodoList_1.validateLogin,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -184,11 +203,11 @@ class Routes(
     )
   )
 
-  // @LINE:24
-  private lazy val controllers_TodoList_createUser7_route = Route("POST",
+  // @LINE:25
+  private lazy val controllers_TodoList_createUser8_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("createUser")))
   )
-  private lazy val controllers_TodoList_createUser7_invoker = createInvoker(
+  private lazy val controllers_TodoList_createUser8_invoker = createInvoker(
     TodoList_1.createUser,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -202,11 +221,11 @@ class Routes(
     )
   )
 
-  // @LINE:28
-  private lazy val controllers_Assets_at8_route = Route("GET",
+  // @LINE:29
+  private lazy val controllers_Assets_at9_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""", encodeable=false)))
   )
-  private lazy val controllers_Assets_at8_invoker = createInvoker(
+  private lazy val controllers_Assets_at9_invoker = createInvoker(
     Assets_2.at(fakeValue[String]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -259,22 +278,28 @@ class Routes(
         controllers_TodoList_removeTask5_invoker.call(TodoList_1.removeTask)
       }
   
-    // @LINE:23
-    case controllers_TodoList_validateLogin6_route(params@_) =>
+    // @LINE:18
+    case controllers_TodoList_changeTags6_route(params@_) =>
       call { 
-        controllers_TodoList_validateLogin6_invoker.call(TodoList_1.validateLogin)
+        controllers_TodoList_changeTags6_invoker.call(TodoList_1.changeTags)
       }
   
     // @LINE:24
-    case controllers_TodoList_createUser7_route(params@_) =>
+    case controllers_TodoList_validateLogin7_route(params@_) =>
       call { 
-        controllers_TodoList_createUser7_invoker.call(TodoList_1.createUser)
+        controllers_TodoList_validateLogin7_invoker.call(TodoList_1.validateLogin)
       }
   
-    // @LINE:28
-    case controllers_Assets_at8_route(params@_) =>
+    // @LINE:25
+    case controllers_TodoList_createUser8_route(params@_) =>
+      call { 
+        controllers_TodoList_createUser8_invoker.call(TodoList_1.createUser)
+      }
+  
+    // @LINE:29
+    case controllers_Assets_at9_route(params@_) =>
       call(params.fromPath[String]("file", None)) { (file) =>
-        controllers_Assets_at8_invoker.call(Assets_2.at(file))
+        controllers_Assets_at9_invoker.call(Assets_2.at(file))
       }
   }
 }

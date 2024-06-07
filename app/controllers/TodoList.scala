@@ -65,12 +65,19 @@ class TodoList @Inject()(cc: ControllerComponents) extends AbstractController(cc
 
   def removeTask = Action { implicit request =>
     val curUser = request.body.asFormUrlEncoded.get("username").head
-    val id = request.body.asFormUrlEncoded.get("id").head
+    val id = request.body.asFormUrlEncoded.get("name").head
     TodoListModel.removeTask(curUser, id)
     Ok("OK")
   }
 
-//  def changeTag = Action { implicit request =>
-//    TODO
-//  }
+  def changeTags = Action { implicit request =>
+    val postVals = request.body.asFormUrlEncoded
+    postVals.map { form =>
+      val name = form("title").head
+      val tags = form("tags").head.split(',').toList
+      val username = form("username").head
+      TodoListModel.changeTags(username, name, tags)
+      Ok("")
+    }.getOrElse(BadRequest("Error"))
+  }
 }

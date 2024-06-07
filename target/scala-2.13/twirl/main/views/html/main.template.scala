@@ -30,7 +30,7 @@ Seq[Any](format.raw/*2.55*/("""
     <head>
         """),format.raw/*7.62*/("""
         """),format.raw/*8.9*/("""<title>"""),_display_(/*8.17*/title),format.raw/*8.22*/("""</title>
-        <script type="module" src=""""),_display_(/*9.37*/routes/*9.43*/.Assets.at("javascripts/index-CelVY5EL.js")),format.raw/*9.86*/(""""></script>
+        <script type="module" src=""""),_display_(/*9.37*/routes/*9.43*/.Assets.at("javascripts/index-DhsI00yW.js")),format.raw/*9.86*/(""""></script>
         <link rel="stylesheet" media="screen" href=""""),_display_(/*10.54*/routes/*10.60*/.Assets.at("stylesheets/index-Bift9DB3.css")),format.raw/*10.104*/("""">
 """),format.raw/*11.109*/("""
     """),format.raw/*12.5*/("""</head>
@@ -59,7 +59,7 @@ Seq[Any](format.raw/*2.55*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/main.scala.html
-                  HASH: cdc4745b1cb22903bd9589fc1223a41935173491
+                  HASH: 47d37585bd904aa4c785a9e984d257263f08e823
                   MATRIX: 739->3|887->56|917->60|999->168|1035->178|1069->186|1094->191|1166->237|1180->243|1243->286|1336->352|1351->358|1417->402|1450->514|1483->520|1540->550|1554->555|1586->566|1624->667|1662->678|1690->685|1723->793|1756->799
                   LINES: 21->2|26->2|28->4|31->7|32->8|32->8|32->8|33->9|33->9|33->9|34->10|34->10|34->10|35->11|36->12|38->14|38->14|38->14|39->16|40->17|40->17|42->19|43->20
                   -- GENERATED --

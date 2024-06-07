@@ -1,46 +1,5 @@
 @()(implicit request: RequestHeader, flash: Flash)
 
 @main("TODO List") {
-@*    <h2>Список задач</h2>*@
-@*    <ul>*@
-@*        @for((key, task) <- tasks){*@
-@*            <li>@key*@
-@*            <form method="post" action="@routes.TodoList.removeTask">*@
-@*                @helper.CSRF.formField*@
-@*            <input type="hidden" name="id" value="@key">*@
-@*            <button type="submit">Удалить заметку</button>*@
-@*            </form>*@
-@*            <br>*@
-@*                @for((i, tag) <- task.zipWithIndex){*@
-@*                    @tag - @i*@
-@*                }*@
-@*            </li>*@
-@*        }*@
-
-@*                *@@*<li>@task</li>*@
-@*                <form method="post" action="@routes.TodoList.removeTask">*@
-@*                @helper.CSRF.formField*@
-@*                <input type="hidden" name="id" value="@i">*@
-@*                <button type="submit">Удалить заметку</button>*@
-@*                </form>*@
-@*    </ul>*@
-
-@*    <form method="post" action="@routes.TodoList.addTask">*@
-@*        @helper.CSRF.formField*@
-@*        <label for="title">*@
-@*            Задача:*@
-@*        </label>*@
-@*        <textarea name="title"></textarea>*@
-@*        <br>*@
-@*        <label for="tags">Теги</label>*@
-@*        <br>*@
-@*        <input  type="checkbox" value="a" name="tags">*@
-@*        <input  type="checkbox" value="b" name="tags">*@
-@*        <button type="submit">отправить</button>*@
-@*        <br>*@
-@*        *@@*<a href="@routes.TodoList.logout">Выйти из системы</a>*@
-@*    </form>*@
+    <div id="todo"></div>
 }
-<div id="todo">
-
-</div>

@@ -39,9 +39,14 @@ object TodoListModel {
   def addTask(username: String, title: String, desc: String, tags: List[String]): Unit = {
     tasks(username)(title) = mutable.Map("desc" -> List(desc), "tags" -> tags)
   }
+
   def removeTask(username: String, index: String): Boolean = {
       tasks(username) = tasks(username).-(index)
       true
   }
 
+  def changeTags(username: String, name: String, tags: Seq[String]): Boolean = {
+    tasks(username)(name)("tags") = tags.toList
+    true
+  }
 }

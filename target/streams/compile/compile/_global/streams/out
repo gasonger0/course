@@ -1,4 +1,4 @@
-[warn] C:\Users\Михаил\Desktop\course-пше\app\models\TodoListModel.scala:43:41: method - in trait MapOps is deprecated (since 2.13.0): Use - or remove on an immutable Map
-[warn]       tasks(username) = tasks(username).-(index)
-[warn]                                         ^
-[warn] one warning found
+[error] E:\course-git\app\controllers\TodoList.scala:80:9: Cannot write an instance of List[String] to HTTP response. Try to define a Writeable[List[String]]
+[error]       Ok(tags)
+[error]         ^
+[error] one error found
